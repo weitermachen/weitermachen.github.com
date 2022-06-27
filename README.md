@@ -408,12 +408,12 @@ YAML FONT Matters
     - \left[ 、\right]表示给矩阵加入括号
 
     - 另外一种显示矩阵的写法
-      $$
+     <img src="http://chart.googleapis.com/chart?cht=tx&chl= $$
       \left|\begin{matrix}
       1 & 2 & 3 \\
       4 & 5 & 6 \\
       \end{matrix}\right|
-      $$
+      $$" style="border:none;"> 
 
 14. 方程组
     $$

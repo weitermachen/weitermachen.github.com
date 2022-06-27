@@ -336,31 +336,31 @@ YAML FONT Matters
 5. 上下水平大括号 我们可以使用\overbrace{}和\underbrace{}来表示上下大括号，如：$上大括号：\overbrace{x_1+x_2+x_3}$，$下大括号：\underbrace{a+b}$
 
 6. 向量符号 我们可以使用\vec{}来表示单个字母向量，其实也可以表示多个字母，但不美观，另两个命令\overrightarrow{}和\overleftarrow{}在定义从A到B的向量时非常有用。如
-   $$
+   $
    \vec{a}
    \\\vec{AB}
    \\\vec{ABC}
    \\\overrightarrow{AB}
    \\\overleftarrow{AB}
-   $$
+   $
 
 7. 分数 我们可以使用\frac{}{}来表示分数，如：
-   $$
+   $
    \frac{1}{2}
    \\\frac{\sqrt[3]{8}}{4}
-   $$
+   $
 
 8. 积分运算 积分运算符用\int来生成，用\int_{}^{}来表示上下界，如：
-   $$
+   $
    \int
    \\\int_{1}^{2}
-   $$
+   $
 
 9. 求和运算符 可以使用\sum来生成，用sum_{}^{}来表示求和上下界，如：
-   $$
+   $
    \sum
    \\\sum_{i=1}^{10}x_i
-   $$
+   $
    注意：求和符号的上下标渲染显示在内联和外联公式中不同，以上是外联公式，内联公式为$\sum_{i=1}^{10}x_i$
 
 10. 连乘运算符 用\prod{}表示，上下标用\prod_{}^{}表示，如：
